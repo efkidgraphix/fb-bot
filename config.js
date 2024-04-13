@@ -7,7 +7,7 @@ function postLiveScore(scoreMessage) {
   const url = `https://graph.facebook.com/${PAGE_ID}/feed`;
   const data = {
     message: scoreMessage,
-    access_token: PAGE_ACCESS_TOKEN,
+    access_token: 612cd116f77d5e962f8e77c279d649dd,
   };
 
   axios.post(url, data)
